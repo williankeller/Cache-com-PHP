@@ -13,7 +13,7 @@ $cache = new Cache();
 ```php
 $cache->salva("nome-da-chave", "conteudo-do-cache");
 ```
-* O conteúdo pode ser uma `string` ou até mesmo um `array` *
+O conteúdo pode ser uma `string` ou até mesmo um `array`
 
 **Recuperando Conteúdo**
 ```php
@@ -21,12 +21,12 @@ $cache->recupera("nome-da-chave");
 ```
 
 **Definição da Pasta do Cache**
-* O sistema dá a opção de você escolher a pasta de destino dos arquivos temporários. *
+O sistema dá a opção de você escolher a pasta de destino dos arquivos temporários.
 ```php
 $pasta = "";
 ```
 
-* Caso a mesma não seja definida, o sistema receberá a pasta temporária padrão do servidor *
+** Caso a mesma não seja definida, o sistema receberá a pasta temporária padrão do servidor **
 ```php
 sys_get_temp_dir()
 ```
