@@ -25,6 +25,7 @@ O sistema dá a opção de você escolher a pasta de destino dos arquivos tempor
 ```php
 $pasta = "";
 ```
+Sinta-se livre para deixar um commit
 
 **Caso a mesma não seja definida, o sistema receberá a pasta temporária padrão do servidor**
 ```php
